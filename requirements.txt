@@ -1,0 +1,55 @@
+# Requirements
+
+All Python dependencies needed to run the NLP practical implementations.
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Dependencies
+
+### Core Libraries
+- **nltk** (3.8+) - Natural Language Toolkit
+- **spacy** (3.5+) - Industrial-strength NLP
+- **gensim** (4.2+) - Topic modeling and word embeddings
+
+### Data Processing
+- **pandas** (1.5+) - Data manipulation and analysis
+- **numpy** (1.23+) - Numerical computing
+
+### Machine Learning
+- **scikit-learn** (1.2+) - Machine learning algorithms
+- **tensorflow** (2.10+) - Deep learning framework
+- **keras** (2.10+) - Neural networks API
+
+### NLP-Specific
+- **transformers** (4.25+) - Pre-trained transformer models (BERT, GPT, etc.)
+- **torch** (1.13+) - PyTorch for transformers support
+
+### Jupyter & Visualization
+- **jupyter** (1.0+) - Jupyter notebook
+- **matplotlib** (3.6+) - Plotting library
+- **seaborn** (0.12+) - Statistical visualizations
+
+## Optional Dependencies
+
+For additional functionality:
+
+```bash
+# For advanced visualizations
+pip install plotly wordcloud
+
+# For text preprocessing
+pip install textblob beautifulsoup4
+
+# For GPU acceleration (if CUDA available)
+pip install tensorflow[and-cuda]
+```
+
+## Notes
+
+- NLTK and spaCy require additional data downloads. See Getting Started guide.
+- Transformers library downloads pre-trained models on first use (~1-2 GB).
+- Ensure you have Python 3.8+ installed.
